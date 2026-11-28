@@ -30,10 +30,7 @@ public sealed partial class CrewMonitoringUpdateFilterRequestMessage : BoundUser
 {
     public string TrackingImplant;
 
-    public CrewMonitoringUpdateFilterRequestMessage(string trackingImplant)
-    {
-        TrackingImplant = trackingImplant;
-    }
+    public CrewMonitoringUpdateFilterRequestMessage(string trackingImplant) => TrackingImplant = trackingImplant;
 }
 
 [Serializable, NetSerializable]
