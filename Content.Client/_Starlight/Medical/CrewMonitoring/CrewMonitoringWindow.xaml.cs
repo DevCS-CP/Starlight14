@@ -51,5 +51,4 @@ public sealed partial class CrewMonitoringWindow : PopOutFancyWindow
             FilterSelected?.Invoke(TrackingImplant);
         }
     }
-
 }
