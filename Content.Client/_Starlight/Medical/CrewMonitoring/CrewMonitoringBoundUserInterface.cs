@@ -14,8 +14,5 @@ public sealed partial class CrewMonitoringBoundUserInterface : BoundUserInterfac
         }
     }
 
-    private void OnFilterSelected(string trackingImplant)
-    {
-        SendMessage(new CrewMonitoringUpdateFilterRequestMessage(trackingImplant));
-    }
+    private void OnFilterSelected(string trackingImplant) => SendMessage(new CrewMonitoringUpdateFilterRequestMessage(trackingImplant));
 }
